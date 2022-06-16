@@ -1,0 +1,13 @@
+ul {
+  background-color: #eeeeee;
+  width: 30%;
+  margin: 25px auto;
+  padding: 10px 25px;
+  font-size: x-large;
+  list-style: none;
+  line-height: 45px;
+  border: 10px solid #e1e1e1;
+  -webkit-box-shadow: 2px 1px 15px 4px #7f7f7f82;
+          box-shadow: 2px 1px 15px 4px #7f7f7f82;
+}
+/*# sourceMappingURL=style.css.map */
