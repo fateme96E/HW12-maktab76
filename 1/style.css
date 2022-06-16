@@ -1,0 +1,114 @@
+body {
+  background-color: #fafbff;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+}
+
+aside {
+  background-color: #413e6b;
+  width: 20%;
+  height: 560px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px 25px 25px;
+  border-radius: 5px;
+}
+aside p, aside i, aside h2 {
+  color: #ffffff;
+}
+aside .info-container i, aside .info-container label {
+  color: #9997a9;
+  font-size: 10px;
+}
+aside .info-container p {
+  margin-top: 5px;
+}
+aside footer i {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+main {
+  background-color: #ffffff;
+  width: 60%;
+  height: 530px;
+  margin-top: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px 30px 25px;
+  -webkit-box-shadow: -1px 4px 27px -8px rgba(99, 99, 99, 0.49);
+          box-shadow: -1px 4px 27px -8px rgba(99, 99, 99, 0.49);
+  border-radius: 5px;
+}
+main h2 {
+  border-bottom: 1px solid #e2e2e2;
+  width: 98%;
+  padding-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-container input {
+  display: block;
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.form-container textarea {
+  display: block;
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.form-container button {
+  width: 98%;
+  padding: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #413e6b;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+}
+.form-container button:hover {
+  background-color: #ffffff;
+  border: 2px solid #413e6b;
+  color: #413e6b;
+}
+.form-container button:focus {
+  background-color: #61e161;
+  border: 2px solid #61e161;
+  color: #ffffff;
+}
