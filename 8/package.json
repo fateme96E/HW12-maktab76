@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "name": "lodash",
+  "version": "4.17.21",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"\"",
+  "license": "ISC",
+  "description": "\"\"",
+  "keywords": [
+    "[]"
+  ]
+}
